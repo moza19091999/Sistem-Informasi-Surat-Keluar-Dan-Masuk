@@ -35,9 +35,9 @@ $data= mysqli_fetch_array($ambil);
                         </div>
 
 						<div class="form-group">
-                            <label for="penerima" class="col-sm-3 control-label">Penerima Surat</label>
+                            <label for="penerima" class="col-sm-3 control-label">Staff Penerbit Surat</label>
                             <div class="col-sm-9">
-                                <input type="text" name="penerima" value="<?=$data['penerima']?>" class="form-control" id="inputPassword3" placeholder="Inputkan Staff Penerima Surat" required>
+                                <input type="text" name="penerbit" value="<?=$data['penerbit']?>" class="form-control" id="inputPassword3" placeholder="Inputkan Staff Penerima Surat" required>
                             </div>
                         </div>
 
